@@ -3,12 +3,12 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Movie Landing Page | By anuragc0des</title>
     <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
     <header>
-      <a href="#"><img src="./img/Avatar-Logo-PNG_005.png" alt="" /></a>
+      <a href="#"><img src="./img/logo.png" alt="logo" /></a>
       <div class="toggle">
         <img src="./img/toggle.png" alt="toggle" />
       </div>
@@ -25,9 +25,9 @@
           consectetur eius sunt amet earum blanditiis iure, voluptatem numquam!
         </p>
 
-        <div class="watch">
+        <div class="watch open">
           <div class="play-btn">
-            <img src="./img/icons8-play-50.png" alt="icons8-play-50" />
+            <img src="./img/play.png" alt="icon-play" />
           </div>
 
           <span>Watch Movie</span>
@@ -37,16 +37,28 @@
       <div class="social">
         <ul>
           <li>
-            <a href="#"><img src="./socialMedia/facebook.png" alt="" /></a>
+            <a href="#"
+              ><img src="./socialMedia/facebook.png" alt="facebook"
+            /></a>
           </li>
           <li>
-            <a href="#"><img src="./socialMedia/instagram.png" alt="" /></a>
+            <a href="#"
+              ><img src="./socialMedia/instagram.png" alt="instagram"
+            /></a>
           </li>
           <li>
-            <a href="#"><img src="./socialMedia/twitter.png" alt="" /></a>
+            <a href="#"
+              ><img src="./socialMedia/twitter.png" alt="twitter"
+            /></a>
           </li>
         </ul>
       </div>
     </main>
+    <div class="movie-section hidden">
+      <video src="./video/video.mp4" controls="true"></video>
+      <img src="./img/cross.png" alt="cross" class="close" />
+    </div>
+
+    <script src="./script.js"></script>
   </body>
 </html>
